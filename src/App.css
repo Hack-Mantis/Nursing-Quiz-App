@@ -1,31 +1,225 @@
-.App {
-  text-align: center;
-}
+body {
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  margin: 0;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  font-family: "Verdana", cursive, sans-serif;
+
+  color: #ffffff;
+
+  background-color: #232b45;
+
   display: flex;
-  flex-direction: column;
-  align-items: center;
+
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  align-items: center;
+
+  min-height: 100vh;
+
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.app {
+
+  background-color: #1c2340;
+
+  width: 350px;
+
+  border-radius: 15px;
+
+  padding: 20px;
+
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+
+  display: flex;
+
+  flex-direction: column;
+
 }
 
-.heart {
-  color: #ff0000;
+
+
+.question-section {
+
+  margin-bottom: 20px;
+
 }
 
-.small {
-  font-size: 0.75rem;
+
+
+.question-count {
+
+  margin-bottom: 15px;
+
+  font-size: 18px;
+
+  color: #7f8fa6;
+
+}
+
+
+
+.question-count span {
+
+  font-size: 24px;
+
+  color: #f5a623;
+
+}
+
+
+
+.question-text {
+
+  margin-bottom: 20px;
+
+  font-size: 18px;
+
+  color: #ffffff;
+
+}
+
+
+
+.timer-text {
+
+  font-size: 16px;
+
+  color: #f5a623;
+
+  background: #2f3640;
+
+  padding: 10px;
+
+  border-radius: 10px;
+
+  text-align: center;
+
+  margin-bottom: 20px;
+
+}
+
+
+
+.answer-section {
+
+  display: flex;
+
+  flex-direction: column;
+
+}
+
+
+
+button {
+
+  background-color: #273c75;
+
+  color: #ffffff;
+
+  border: 2px solid transparent;
+
+  border-radius: 10px;
+
+  padding: 10px;
+
+  margin-bottom: 10px;
+
+  font-size: 16px;
+
+  text-align: left;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+
+}
+
+
+
+button:hover {
+
+  background-color: #2f3640;
+
+  border: 2px solid #f5a623;
+
+}
+
+
+
+button:focus {
+
+  outline: none;
+
+  background-color: #f5a623;
+
+  color: #1c2340;
+
+}
+
+
+
+button svg {
+
+  margin-right: 10px;
+
+}
+
+
+
+.correct {
+
+  background-color: #4cd137;
+
+  border: 2px solid #44bd32;
+
+}
+
+
+
+.incorrect {
+
+  background-color: #e84118;
+
+  border: 2px solid #c23616;
+
+}
+
+
+
+.submit-section {
+
+  display: flex;
+
+  justify-content: space-between;
+
+}
+
+
+
+.submit-button {
+
+  background-color: #40739e;
+
+  color: #ffffff;
+
+  border-radius: 10px;
+
+  padding: 10px 20px;
+
+  font-size: 16px;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+
+}
+
+
+
+.submit-button:hover {
+
+  background-color: #3498db;
+
 }
