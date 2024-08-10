@@ -8,4 +8,5 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
   },
+  base: '/Hack-Mantis/Nursing-Quiz-App/'
 })
